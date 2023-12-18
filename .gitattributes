@@ -1,4 +1,5 @@
 replication/* filter=lfs diff=lfs merge=lfs -text
+replication/data/clean/* filter=lfs diff=lfs merge=lfs -text
 replication/data/clean/dummy_safegraph_data.csv filter=lfs diff=lfs merge=lfs -text
 replication/data/clean/outcomes_blckgrp_clean_allpois_popweighted.csv filter=lfs diff=lfs merge=lfs -text
 replication/data/clean/outcomes_blckgrp_clean_popweighted.csv filter=lfs diff=lfs merge=lfs -text
